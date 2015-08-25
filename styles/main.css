@@ -1,5 +1,5 @@
 .topBar {
-	 background-color: #118BC0;
+	 background-color: #006FA8;
 	 height: 3em;
 }
 .background {
@@ -59,7 +59,7 @@
 	border-color: #D1D3D7;
 	border-style: solid;
 	border-width: 1em .7em 1em .7em;
-	height: 12em;
+	height: 14em;
 }
 .bottomBlue {
 	background-color: #E8F0F5;
@@ -79,7 +79,7 @@
 	padding: 2em 2em 0em 2em;
 	height: 1em;
 }
-a {
+p a {
 	color: white;
 	font-family: sans-serif;
 	font-size: .7em;
@@ -92,7 +92,7 @@ a {
 	padding: .5em 2em 4em 2em;
 	height: .5em;
 }
-p {
+div p {
 	text-align: center;
 	margin: 0 0 0 0;
 	height: auto;
@@ -102,4 +102,57 @@ p {
 	height: 1.5em;
 	max-width: 30%;
 	margin: 1em auto 1em auto;
+}
+.topBarInner {
+	 background-color: #118BC0;
+	 height: 3em;
+	 display: inline-block;
+	 width: 80%;
+}
+.topWhiteOne {
+	background-color: white;
+	height: 2em;
+	display: inline-block;
+	width: 2em;
+	margin: .5em .5em .5em 1em;
+}
+.topWhiteTwo {
+	background-color: white;
+	height: 2em;
+	display: inline-block;
+	width: 7em;
+	margin: .5em .5em .5em .5em;
+}
+.whiteBoxInsideOne {
+	background-color: #616E7F;
+	height: 4em;
+	margin: .7em 0 0 0;
+	width: 3em;
+	float: left;
+
+}
+.whiteBoxInsideTwo {
+	background-color: #616E7F;
+	height: 4.2em;
+	margin: 0 0 0 .8em;
+	width: 15em;
+	float: left;
+}
+.sixBoxesInsideOne {
+	background-color: #C7D2D8;
+	margin: 5% auto 1% auto;
+	max-width: 4em;
+	height: 4.1em;
+}
+.sixBoxesInsideTwo {
+	background-color: #C7D2D8;
+	margin: 2% auto 3% auto;
+	max-width: 90%;
+	height: 1.5em;
+}
+.sixBoxesInsideThree {
+	background-color: #C7D2D8;
+	margin: 4% auto 0 auto;
+	max-width: 90%;
+	height: 3em;
 }
