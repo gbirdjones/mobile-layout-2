@@ -6,6 +6,7 @@
 	background-color: #313F52;
 	padding: 7em 0 2em 0;
 	background-image: url(../images/crowd.jpg);
+	background-size: 100% 100%;
 }
 .createText {
 	color: white;
@@ -141,7 +142,7 @@ p {
 	 background-color: #118BC0;
 	 height: 3em;
 	 display: inline-block;
-	 width: 80%;
+	 width: 75%;
 	 font-weight: 100;
 	 font-family: Arial;
 }
