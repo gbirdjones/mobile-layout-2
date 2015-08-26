@@ -1,3 +1,6 @@
+/*p {
+	text-align: center;
+}*/
 .topBar {
 	 background-color: #006FA8;
 	 height: 3em;
@@ -7,6 +10,7 @@
 	padding: 7em 0 2em 0;
 	background-image: url(../images/crowd.jpg);
 	background-size: 100% 100%;
+	text-align: center;
 }
 .createText {
 	color: white;
@@ -85,6 +89,7 @@ span {
 	border-style: solid;
 	border-width: 1em .7em 1em .7em;
 	padding: 1em 3em 2em 3em;
+	text-align: center;
 }
 .bottomBlue {
 	background-color: #E8F0F5;
@@ -108,6 +113,7 @@ span {
 	background-color: black;
 	padding: 2em 2em 0em 2em;
 	height: 1em;
+	text-align: center;
 }
 p a {
 	color: white;
@@ -119,24 +125,16 @@ p a {
 }
 .footTwo {
 	background-color: black;
-	padding: .5em 2em 4em 2em;
-	height: .5em;
-}
-div p {
+	padding: .5em 2em .5em 2em;
 	text-align: center;
-	margin: 0 0 0 0;
-	height: auto;
-}
-p {
-	text-align: center;
-	margin: 0 0 0 0;
-	height: auto;
+
 }
 .whiteBox {
 	background-color: white;
 	height: 1.5em;
 	max-width: 30%;
-	margin: 1em auto 1em auto;
+	margin: 1em auto .5em auto;
+	display: block;
 }
 .topBarInner {
 	 background-color: #118BC0;
