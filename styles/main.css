@@ -5,6 +5,7 @@
 .background {
 	background-color: #313F52;
 	padding: 7em 0 2em 0;
+	background-image: url(../images/crowd.jpg);
 }
 .createText {
 	color: white;
@@ -24,43 +25,44 @@
 }
 .firstBlueBox { 
 	margin: 5% auto 12% auto;
-	max-width: 50%;
-	background-color: #1E8CBE;
-	height: 3em;
-	border: .6em solid #212934;
+	background-color: rgba(21, 33, 39, .5);
 	text-align: center;
+	overflow: hidden;
+	padding: .5em .5em;
+	width: 15em;
+
 }
 .firstBlueBoxText {
 	color: white;
 	font-family: Arial;
 	font-size: 1.5em;
-	margin: .5em auto 0 auto;
-	display: inline-block;
+	line-height: 200%;
+	background-color: #1E8CBE;
 }
 .littleWhiteBox {
-	background-color: white;
+	background-color: transparent;
 	height: 1.2em;
 	margin: 50% auto 25% auto;
 	max-width: 3em;
+	text-align: center;
 
 }
 .whiteBoxesRpt {
 	height: 4.7em;
-	border: 15px solid #313F52;
+	border: 15px solid rgba(255,0,0,0);
 	border-right: 0;
 	border-left: 0;
-	background-color: #344051;
+	background-color: transparent;
 	margin: 0 auto 0 auto;
-	max-width: 19em;
+	width: 19em;
 
 }
 .ltBlueSeperator {
 	background-color: #E8F0F5;
-	height: 7em;
 	font-size: 1.5em;
 	text-align: center;
 	color: #333E4F;
-	padding: 1em 0 0 0;
+	padding: 1em 0 1em 0;
 	font-family: Arial;
 }
 .ltBlueSeperatorText {
@@ -81,7 +83,7 @@ span {
 	border-color: #D1D3D7;
 	border-style: solid;
 	border-width: 1em .7em 1em .7em;
-	height: 14em;
+	padding: 1em 3em 2em 3em;
 }
 .bottomBlue {
 	background-color: #E8F0F5;
@@ -124,6 +126,11 @@ div p {
 	margin: 0 0 0 0;
 	height: auto;
 }
+p {
+	text-align: center;
+	margin: 0 0 0 0;
+	height: auto;
+}
 .whiteBox {
 	background-color: white;
 	height: 1.5em;
@@ -144,6 +151,7 @@ div p {
 	width: 2em;
 	margin: .5em .5em .5em 1em;
 	float: left;
+	overflow: hidden;
 }
 .topWhiteTwo {
 	background-color: transparent;
@@ -168,23 +176,23 @@ div p {
 	font-family: Arial;
 }
 .whiteBoxInsideOne {
-	background-color: white;
-	height: 4em;
+	background-color: transparent;
+	height: 3.3em;
 	margin: .7em 0 0 0;
 	width: 3em;
 	float: left;
 
 }
 .whiteBoxInsideTwo {
-	background-color: #344051;
+	background-color: transparent;
 	height: 4.2em;
-	margin: 0 0 0 .8em;
+	margin: .6em 0 0 .8em;
 	width: 13em;
 	float: left;
 	color: white;
 	font-family: Arial;
 	font-size: 1.1em;
-	line-height: 200%;
+	line-height: 150%;
 }
 .whiteBoxesSecondary {
 	font-size: .8em;
@@ -196,14 +204,15 @@ div p {
 .sixBoxesInsideOne {
 	background-color: #C7D2D8;
 	margin: 5% auto 1% auto;
-	max-width: 4em;
-	height: 4.1em;
+	max-width: 2em;
+	height: 2em;
+	border: 14px solid #C7D2D8;
+	border-radius: 100%;
 }
 .sixBoxesInsideTwo {
 	background-color: transparent;
 	margin: 2% auto 3% auto;
 	max-width: 90%;
-	height: 1.5em;
 	color: #406074;
 	font-size: 1.2em;
 	text-align: center;
@@ -214,7 +223,6 @@ div p {
 	background-color: transparent;
 	margin: 4% auto 0 auto;
 	max-width: 90%;
-	height: 3em;
 	color: black;
 	font-size: 1em;
 	text-align: center;
@@ -226,4 +234,11 @@ div p {
 	font-size: .8em;
 	color: white;
 	margin: 1.2em 2em .5em 1em;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+.fa {
+	color: #FFFFFF;
 }
